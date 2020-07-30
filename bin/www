@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+/**
+ * Module dependencies.
+ */
+
+var server = require('../app');
+
+server.listen('3000', () => {
+  console.log('listening')
+})
